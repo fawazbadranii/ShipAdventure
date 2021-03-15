@@ -13,6 +13,15 @@ public class Ship {
     private FacingDirection facingDirection = FacingDirection.EAST; //USed for F only
     String directionX = "East";
     String directionY ="North";
+
+    public FacingDirection getFacingDirection() {
+        return facingDirection;
+    }
+
+    public void setFacingDirection(FacingDirection facingDirection) {
+        this.facingDirection = facingDirection;
+    }
+
     static int rotation = 0;
 
     public int getX() {
